@@ -1,0 +1,225 @@
+
+
+@font-face {
+    font-family: 'archiveregular';
+    src: url('../fonts/archive.eot');
+    src: url('../fonts/archive.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/archive.woff2') format('woff2'),
+         url('../fonts/archive.woff') format('woff'),
+         url('../fonts/archive.ttf') format('truetype'),
+         url('../fonts/archive.svg#archiveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular.eot');
+    src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular.woff2') format('woff2'),
+         url('../fonts/lato-regular.woff') format('woff'),
+         url('../fonts/lato-regular.ttf') format('truetype'),
+         url('../fonts/lato-regular.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light.eot');
+    src: url('../fonts/lato-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light.woff2') format('woff2'),
+         url('../fonts/lato-light.woff') format('woff'),
+         url('../fonts/lato-light.ttf') format('truetype'),
+         url('../fonts/lato-light.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{ background:#fff; margin-bottom:36px; font-family: 'archiveregular', sans-serif; height:auto !important;}
+
+
+/* ------------------------------------------------------------------------------------- */
+/* ----------------- Global - Styles ----------------- */
+/* ------------------------------------------------------------------------------------- */
+
+.padTop20 { padding-top:20px; }
+
+/* ------------------------------------------------------------------------------------- */
+/* ----------------- homepage - top navigation - start ----------------- */
+/* ------------------------------------------------------------------------------------- */
+.social_inner > a > img.hover { display:none; }
+.social_inner > a:hover > img { display:none; }
+.social_inner > a:hover > img.hover { display:block; }
+
+.mob_social > a > img.hover { display:none; }
+.mob_social > a:hover > img { display:none; }
+.mob_social > a:hover > img.hover { display:block; }
+
+/* header start */
+.header { width:100%; position:fixed; width:100%; top:0; z-index:900; }
+.mob_header { display:none; }
+
+.top_nav_wrapper { position:absolute; width:100%; top:0; z-index:999; }
+.top_nav_wrapper > .top_nav_logo > a { position:relative; display:block; margin:0 auto; z-index:10; width:963px; top:34px; }
+.top_nav_wrapper > .top_nav_logo > a > img {position: absolute;}
+.top_nav_wrapper > .mob_top_nav_logo { display:none; }
+
+.social_wrapper { width:100%; background:url(../images/top_nav_bg.png) left top repeat; padding-top:6px; }
+.social_container_wrapper { max-width:963px; margin:0 auto; }
+.social_inner { float:right; width:auto; min-width:483px; }
+.enquiry_txt { font-size:12px; color:#cdcdcc; float:left; margin:6px 15px 0 0; text-transform:uppercase; }
+.enquiry_txt > a { font-size:12px; color:#b4b9c8; text-transform:uppercase; }
+.social_inner > a { margin-left:2px; display:inline-block; float:left; padding-left:7px; }
+.mahindra_rise_logo { float:left; width:79px; height:19px; margin:5px 0 0 20px }
+
+/*desktop top navigation*/
+.navigation_wrapper { width:100%; background:url(../images/top_nav_bg.png) left top repeat; z-index:1000; }
+.navigation_container { max-width:1000px; margin:0 auto; width:100%; }
+.main_nav_container { width:85%; padding-left:15%; }
+.main_nav { width:95%; float:left; position:relative; }
+.main_nav > ul { width:100%; position:relative; z-index:30; }
+.main_nav > ul > li { display:inline-block; float:left;  position:relative; }
+.main_nav > ul > li > a { font-size:14px; text-decoration:none; color:#ffffff; text-transform:uppercase; padding:10px 9px; display:block; }
+.main_nav > ul > li:hover {  /*background:#2e71d1;*/ cursor:pointer; }
+.main_nav > ul > li.active {  /*background:#2e71d1;*/ cursor:pointer; }
+.main_nav > ul > li.active > a{color:#f06e1d; }
+.main_nav > ul > li:hover > a:hover { color:#f06e1d; /*background:url(../images/navlist_over_bg.png) no-repeat center bottom*/; }
+
+.main_nav > .mainNavHover { position: absolute; top:0; padding-bottom:20px; opacity:0; transition:all 0.3s ease-out; }
+.main_nav > .mainNavHover div { border:2px solid #c15b08; border-radius:5px; color: #c15b08; font-size:14px; text-decoration:none; text-transform:uppercase; padding:10px 9px; transition:all 0.3s ease-out; }
+
+.main_nav > ul > li:first-child > a { padding:10px 9px; }
+.main_nav > ul > li .active {  background:#2e71d1; font-size:12px; text-decoration:none; padding:17px 9px; text-transform:uppercase;  }
+
+.main_nav > ul > li.home_icon { display:inline-block; float:left;  position:relative; border:none !important; height:16px; }
+
+.home_icon_hover { display:none; }
+.main_nav > ul > li:first-child > a:hover > img { display:none; }
+.main_nav > ul > li:first-child > a:hover > img.home_icon_hover { display:block; }
+.main_nav > ul > li.active:first-child > a > img { display:none; }
+.main_nav > ul > li.active:first-child > a > img.home_icon_hover { display:block; }
+
+
+.search_div { float:left; width:5%; position: relative; }
+.searchDetail { width:219px; height:39px; position:absolute; right:3px; top:51px; display:none; z-index:99999; background:#2c343d; }
+.searchinpt { border:0; width:170px; height:26px;color: #afafaf;font-family: 'archiveregular', sans-serif; font-size: 10px;margin: 7px 0 7px 7px;padding-left: 6px; }
+.searchcross { margin: 3px 4px 0 0;width: 163px;height: 14px;background: #212121; }
+.searchcross img { width: 8px;height: 9px;float: right;margin: 3px; }
+.searchDetail span img { width: 26px; height:26px; position: absolute; top: 7px; left:188px; }
+.searchDetail span input { width: 26px; height:26px; position: absolute; top: 7px; left:188px; }
+.mob_search_div { display:none; }
+
+/*dorpdown*/
+
+.main_nav > ul > li > ul.sub_menus { position:absolute; top:38px; left:50%; margin-left:-100px; z-index:400; display:none; background:rgba(0, 0, 0, 0.6) url("../images/navlist_over_bg.png") no-repeat scroll center 0; }
+.main_nav > ul > li > ul.sub_menus > li { float:left; cursor:pointer; width:90%; text-transform:uppercase; border-top:1px solid #494949; text-align:center; min-width:200px; text-transform:uppercase; font-size:14px; }
+.main_nav > ul > li > ul.sub_menus > li:first-child { border-top:0; }
+.main_nav > ul > li > ul.sub_menus > li:hover { background:rgba(0, 0, 0, 0.6); }
+.main_nav > ul > li > ul.sub_menus > li.active { background:rgba(0, 0, 0, 0.6); }
+.main_nav > ul > li > ul.sub_menus > li > a { font-size:11px; color:#FFF; text-decoration:none; padding:10px 5%; display:block; }
+
+.mob_navigation_container { display:none; }
+
+/*scroll bottom btn*/
+.scroll_bottom_btn { width:auto; position:fixed; bottom:40px; right:5%; z-index:700; width:47px; }
+.scroll_bottom_btn > a > img { margin:0 auto; clear:both; }
+.scroll_bottom_btn > span { font-size:9px; color:#544c4c; margin:0 0 5px 0; float:left; text-transform:uppercase; text-align:center; }
+
+/*scroll top btn*/
+.scroll_top_btn { width:auto; position:fixed; bottom:12%; right:5%; z-index:700; width:47px; }
+.scroll_top_btn > a > img { margin:0 auto; clear:both; }
+.scroll_top_btn > span { font-size:9px; color:#544c4c; margin:0 0 5px 0; float:left; text-transform:uppercase; text-align:center; }
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+body{ background:#fff; margin-bottom:0; }
+.side_nav_btn > a > img.mobile_nav_close_btn { display:none; }
+.side_navigation_wrapper { /*display:block;*/ }
+.mob_header { width:100%; width:100%; top:0; z-index:900; display:block; }
+
+.mob_searchDetail { width:150px; height:39px; position:absolute; right:-113px; top:30px; display:none; z-index:99999; background:#2c343d; }
+.searchinpt { border:0; width:100px; height:26px;color: #afafaf;font-family: 'archiveregular', sans-serif; font-size: 10px;margin: 7px 0 7px 7px;padding-left: 6px; float:left; }
+.mob_searchDetail > form > span { float:left; margin-top:7px; }
+.searchcross { margin: 3px 4px 0 0;width: 163px;height: 14px;background: #212121; }
+.searchcross img { width: 8px;height: 9px;float: right;margin: 3px; }
+.searchDetail span img { width: 26px; height:26px; position: absolute; top: 7px; left:188px; }
+
+/* Mob nav */
+
+.mob_navigation_wrapper { display:none; background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0; height: 100%; left: 0; padding: 38px 5% 0; position: absolute; top: 0; width: 90%; z-index: 40; }
+.mob_navigation_container { width:420px; margin:0 auto; height:100%; display:block; position:relative; left:10px; }
+
+.mob_navigation_main_links { float:left; width:200px; }
+.mob_navigation_main_links > ul { display:block; }
+.mob_navigation_main_links > ul > li { font-size:15px; color:#767676; line-height:35px; }
+.mob_navigation_main_links > ul > li > a { color:#767676; padding:6px; border-radius:5px; border:2px solid rgba(0, 0, 0, 0); }
+.mob_navigation_main_links > ul > li > a:hover { color:#be5908; }
+.mob_navigation_main_links > ul > li > a.active { border:2px solid #be5908; border-radius:5px; color:#be5908; padding:6px; }
+
+.mob_navigation_sub_links { border-left: 1px solid #777777; float: left; max-height: 250px; min-height: 250px; overflow-y: scroll; padding-left: 10px; width: 200px; }
+.mob_navigation_sub_links > ul { display:none; }
+.mob_navigation_sub_links > ul > li { font-size:13px; color:#FFFFFF; line-height:30px; }
+.mob_navigation_sub_links > ul > li > a { color:#FFFFFF; }
+.mob_navigation_sub_links > ul > li > a:hover { color:#be5908; }
+.mob_navigation_sub_links > ul > li > a.active { color:#be5908; }
+
+
+.top_nav_wrapper { width:100%; height:38px; top:0; z-index:999; background:url(../images/top_nav_bg.png) left top repeat; }
+.mob_social_container { float:right; margin:8px 0; position:relative; padding-right:10px; }
+.mob_nav { position:absolute; top:0; margin-left:-19px; left:50%; z-index:50; }
+.side_menu_close_btn > a { position:absolute; top:0; left:50%; margin-left:-19px; z-index:50; }
+.mob_social_bg { float:left; }
+.mob_social { position:absolute; top:30px; left:-3px; background:#2c343d; padding:0 5px; }
+.mob_social > a { display:inline-block; }
+.mob_search_bg { float:left; position:relative; }
+.mob_mahindra_logo { float:left; }
+.top_nav_logo { display:none !important; }
+.top_nav_wrapper > .mob_top_nav_logo { float:left; display:block; padding-left:2%; }
+.mob_top_nav_logo > a { width:100%; }
+.mob_top_nav_logo > a > img { width:65px; }
+	
+.navigation_container { display:none; }
+.social_wrapper { height:10px; }
+.social_container_wrapper { display:none; } 
+.side_nav_wrapper{display:none !important; }
+.social_wrapper { display:none; }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	
+.top_nav_wrapper > .top_nav_logo > a > img { width:100px; left:5px; }
+.side_navigation_wrapper { display:block; }
+body{ background:#fff; margin-bottom:56px; }
+	
+.footer_wrapper > ul { width:700px !important; }
+
+.main_nav_container { left:14%; width:86%; }
+.main_nav > ul > li.home_icon { height:auto; }
+.main_nav > ul > li > ul.sub_menus { position:absolute; top:49px; left:0px; width:200px; z-index:400; }
+.main_nav { width:90%; float:left; position:relative; }
+.main_nav > ul { width:100%; }
+.main_nav > ul > li {  position:relative; }
+.main_nav > ul > li:hover { }
+
+.social_icon_list > ul > li { width:23%; text-align:center; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 879px) {
+.main_nav > ul > li > a { font-size:11px; padding:19px 3px; display:block;}
+
+}
+@media screen and (min-width: 880px) and (max-width: 960px) {
+.main_nav > ul > li > a { font-size:13px; padding:19px 3px; display:block;}
+
+}
+
+
+
+
+
+

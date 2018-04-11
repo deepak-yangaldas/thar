@@ -1,0 +1,472 @@
+@charset "utf-8";
+.responsiveImg{width:100%;}
+.clearfix:before, .clearfix:after{content:" "; height:0px; line-height:0px; font-size:0px; display:block;}
+.roundCorner{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;border:1px solid #000000;}
+.errorRoundCorner{border:1px solid #eb0404 !important;}
+.bgWhite{background-color:#FFFFFF;}
+.bgGray{background-color:#6a6a6a !important;}
+.orgColorTxt{color:#f36f21 !important;}
+.posRel{position:relative;}
+.bulletList{padding:0px 0px 0px 20px; list-style:outside;}
+.bulletList > li{margin:0px 0px 8px 0px;}
+.spacer50{height:50px;}
+.errorMsg{font-size:11px; color:#eb0404 !important; font-family:"latoregular", Helvetica, Arial, sans-serif; margin:4px 0px 0px 0px; visibility:hidden;}
+.errorMsg.active{visibility:visible;}
+.font30{font-size:30px;}
+.fontArchive{font-family:"archiveregular",Helvetica,Arial,sans-serif;}
+
+/*---------------  Global Styles Starts ------------------*/
+
+.read_more_btn_white > a { border: 1px solid #FFFFFF; border-radius: 10px; color: #FFFFFF; display: inline-block; font-family: "latolight"; font-size: 15px; font-weight: bold; margin: 10px 0 0; padding: 5px 10px; }
+.spotlight_holder { position:relative; z-index:10; }
+.lowerCase{text-transform:lowercase; font-family:arial;}
+
+
+/*---------------  Global Styles Ends ------------------*/
+
+#buyerGuide{padding-top:78px !important;}
+.h2Title{font-size:40px;}
+.twoColumns{background-color:#FFFFFF;}
+.twoColumns .col1{float:left; width:50%; position:relative; height:100%;}
+.twoColumns .col2{float:right; width:50%;}
+.twoColumns .col1 .slideTitle{position:absolute; top:55%; right:25%;}
+.twoColumns .col1 .slideTitle h1{margin:0px; font-size:80px; color:#FFFFFF;}
+.twoColumns .formContainer{padding:5% 7% 0px 7%; text-align:left; color:#000000;}
+
+.formContainer > h2{font-family:"latoregular", Helvetica, Arial, sans-serif; margin:0px 0px 24px 0px; text-transform:uppercase; font-size:40px;}
+.fieldCont{margin:10px 0px 30px 0px;}
+.fieldCont .fcol1{width:45%; float:left;}
+.fieldCont .fcol2{width:45%; float:right;}
+.fieldCont .fcol1 > label, .fieldCont .fcol2 > label, .fieldCont > .fcol > label{display:block; width:100%; color:#626262; font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:15px; margin:0px 0px 5px 0px;}
+.fieldCont .fcol1 > input, .fieldCont .fcol2 > input, .fieldCont > .fcol > input{height:50px; width:100%; font-family:"archive", Helvetica, Arial, sans-serif; font-size:16px; color:#000000; text-indent:10px; }
+.formContainer > p{color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif; text-transform:none; font-size:15px;}
+.tncCont{position:relative; padding:0px 0px 0px 35px;}
+.tncCont > .chkBox{position:absolute; left:5px; top:5px; width:15px; height:15px; cursor:pointer;}
+p.formInstuctions{color:#e80000; font-size:15px; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+.formContainer > .tncCont > p{color:#000000; font-size:15px; font-family:"latoregular", Helvetica, Arial, sans-serif; text-transform:none;}
+.fieldCont .fcol{width:100%;}
+.buttonContainer{margin:10px 0px 0px 0px;}
+.buttonContainer > a.button, .buttonContainer > a.button:hover, .buttonContainer > a.button:active, .buttonContainer > a.button:visited{display:inline-block; margin:0px 10px 0px 0px; text-decoration:none; border:1px solid #000000; padding:1% 2%; text-transform:uppercase; color:#000000;font-family:"archiveregular", Helvetica, Arial, sans-serif;}
+#thankyouForm{display:none;}
+
+.chooseModel{font-size:15px; color:#000000; margin:0px 0px 15px 0px;}
+#priceTable{margin:50px 0px}
+#priceTable .cell1, #priceTable .cell2, #priceTable .cell3{width:32%; color:#000000; font-size:22px; font-family:"latoregular", Helvetica, Arial, sans-serif; padding:10px;}
+#priceTable td{color:#000000; font-size:22px; padding:10px; font-family:"latoregular", Helvetica, Arial, sans-serif; vertical-align:middle;}
+
+.modelToggle{width:200px; margin:0px 0px 50px 0px;}
+.modelToggle > a{color:#000000; display:inline-block; width:35%; padding:10px; font-family:"latoregular", Helvetica, Arial, sans-serif; margin:0px 0px 0px -5px; text-align:center;}
+.modelToggle > a:first-child{ -webkit-border-radius: 5px 0px 0px 5px;-moz-border-radius: 5px 0px 0px 5px;border-radius: 5px 0px 0px 5px; border:1px solid #000000;}
+.modelToggle > a:last-child{-webkit-border-radius: 0px 5px 5px 0px;-moz-border-radius: 0px 5px 5px 0px;border-radius: 0px 5px 5px 0px; border:1px solid #000000;}
+.modelToggle > .active{background-color:#bf5a08; color:#FFFFFF;}
+#tharDI{display:none;}
+
+.xMartLogo{text-align:center; padding:50px 0px;}
+.xMartContent{text-align:left; color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+.xMartsubCopy{ font-size:15px; padding:10px 0; }
+.xMartTitle{color: #ffffff; font-size: 50px; position: absolute; text-transform: uppercase; bottom:0; width: 100%; z-index: 20;}
+
+.bgImgContainer{width:100%; height:100%;}
+.bgImgContainer.slide1{background-image:url("../images/thar-buyers-guide.jpg"); background-repeat:no-repeat; background-position:center center; background-size:cover;}
+.bgImgContainer.slide2{background-image:url("../images/mahindra-thar-price.jpg"); background-repeat:no-repeat; background-position:center center; background-size:cover;}
+
+.customChkBox{background-image:none;}
+.customChkBox.active{background-image:url("../images/checkBox.png");}
+.customChkBox > input{visibility:hidden;}
+
+.dealerListing > .delearDeails{padding: 0 0 4% 50px; position: relative;}
+.delearDeails > .googleBulb{background: url("../images/thar-google-bulb.png") no-repeat scroll -8px 2px transparent; color: #ffffff; height: 41px; left: 0; padding: 9px 0 0 11px; position: absolute; top: 0; width: 39px;}
+.delearDeails > .dealerName{color: #000000;font-size: 16px;font-weight: bold;}
+.delearDeails > div{color: #3e3d3d;font-size: 14px;line-height: 22px;}
+
+.brochureAbsCont{position:absolute; bottom:1%; left:0%; width:100%; text-align:center; z-index:20;}
+.ebrochure{color: #ffffff; font-size:50px; text-transform: uppercase; }
+.downloadEbrochure{text-align:center; width:100%; padding-top:3%; }
+.ebrochure  > img, .top_gear_Title > img, .xMartTitle > img  { padding-top:3%; }
+.downloadEbrochure > a, .downloadEbrochure > a:hover, .downloadEbrochure > a:active, .downloadEbrochure > a:visited{display:block; color:#FFFFFF; padding:0.5% 1%; text-decoration:none; display:inline-block; font-size:20px; border:1px solid #FFFFFF; -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.downloadEbrochure > a:first-child{margin:0px 10px 0px 0px;}
+.textLeft{text-align:left;}
+
+.faqTitle{font-size:40px; margin:0px 0px 50px 0px; text-align:left;}
+.accordion{text-align:left;}
+.accordion > h3{padding:8px 50px 8px 0px; background-image:url("../images/accordion-arrow-up.png"); background-repeat:no-repeat; background-position:99% 15px; font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:23px; font-weight:normal; border-bottom:1px solid #000000; margin:0px 0px 50px 0px;}
+.accordion > h3.active{background-position:99% -61px; margin:0px 0px 15px 0px; background-image:url("../images/accordion-arrow-down.png");}
+.accordion > .contentCont{margin:0px 0px 50px 0px;}
+.accordion > .contentCont > p{padding:0px 50px 0px 0px; color:#000000; font-size:20px; font-family:"latoregular", Helvetica, Arial, sans-serif; font-weight:normal;}
+
+.getIntouch{position:relative; padding:0px 0px 0px 7%;}
+.gitHamesha{position:absolute; top:5%; left:7%; text-align:left;}
+.gitHamesha > p{font-size:15px; color:#000000;}
+
+.referTitle{color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:30px;}
+.para20{font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:20px; color:#626262;}
+.orangeClick, .orangeClick:hover, .orangeClick:active, .orangeClick:visited{color:#c15b08; text-decoration:underline;}
+
+.threeColumn .col1{float:left; width:30% !important;}
+.threeColumn .col2{float:left; width:30% !important; margin:0px 5% !important;}
+.threeColumn .col3{float:left; width:30% !important;}
+
+
+.threeColumn label{display:block; width:100%; color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:15px; margin:0px 0px 5px 0px;}
+.threeColumn input{height:60px; width:100%; font-family:"latoregular", Helvetica, Arial, sans-serif; font-size:16px;}
+#friendDetail, #referThankyou{display:none;}
+.dateCont{display:block; padding:0px 65px 0px 0px; background-image:url("../images/thar-datepicker.png"); background-repeat:no-repeat; background-position:100% 5px; cursor:pointer;}
+
+.dateCont > input{font-family: "latoregular",Helvetica,Arial,sans-serif; font-size: 16px; height: 60px; width: 100%;}
+.centerTxt{text-align:center;}
+#tipsTab > .active{background-color:#bf5a08; color:#FFFFFF !important; border-color:#bf5a08 !important;}
+#tipsTabsCont > .tabContent{display:none; color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+#tipsTabsCont > .tabContent h3{font-size:35px; margin:30px 0px 20px 0px;}
+#tipsTabsCont > .tabContent h3+p{margin:0px 0px 15px 0px;}
+#tipsTabsCont > .tabContent ul{margin:0px 0px 15px 0px;}
+#tipsTabsCont > .tabContent ul+p{margin:0px 0px 15px 0px;}
+#tipsTabsCont > .tabContent li, #tipsTabsCont > .tabContent p{font-size:20px;}
+.tabContent ul li > ul{margin:0px 0px 0px 15px; padding:0px 0px 0px 15px; list-style:disc;}
+.tabContent ul li > ul > li{margin:0px 0px 8px 0px;}
+
+
+/* Customize Start */
+
+.customise_heading { color: #242424; font-size: 35px; text-align: center; font-family:"latoregular",Helvetica,Arial,sans-serif; }
+
+/* Customize Start */
+
+
+
+/* Customize Start */
+#customizeTab{margin-bottom:15px;}
+#customizeTab > .active{background-color:#bf5a08; color:#FFFFFF !important; border-color:#bf5a08 !important;}
+#customizeTabCont > .tabContent{display:none; color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+#customizeTabCont > .tabContent h3{font-size:35px; margin:30px 0px 20px 0px;}
+#customizeTabCont > .tabContent h3+p{margin:0px 0px 15px 0px;}
+#customizeTabCont > .tabContent ul{margin:0px 0px 15px 0px;}
+#customizeTabCont > .tabContent ul+p{margin:0px 0px 15px 0px;}
+#customizeTabCont > .tabContent li, #tipsTabsCont > .tabContent p{font-size:20px;}
+#customizeTabCont > .tabContent > .customizeTxtCol{width:48%; float:left;}
+#customizeTabCont > .tabContent > .customizeImgCol{width:48%; float:right;}
+#customizeTabCont .bulletList > li{margin:0px 0px 20px 0px;}
+#customizeTabCont .bulletList > li > .bulletList{margin-left: 15px;margin-top: 15px;}
+
+.customizeImgCol > .responsiveImg{width:100%; max-width:407px;}
+/* Customize End */
+
+.mapContainer { float: left; position: relative; width: 50%; overflow:hidden; }
+#exThatThnk{display:none;}
+
+/* Model Start */
+.modelDesc{border-collapse:collapse; border-color:#000000; width:100%; text-align:left; font-family: "latoregular",Helvetica,Arial,sans-serif;}
+.modelDesc > thead > tr > th{width:25%; text-align:center; padding:15px; border-right:2px solid #000000; border-bottom:4px solid #000000; font-size:30px; font-family: "latoregular",Helvetica,Arial,sans-serif; font-weight:bolder; }
+.modelDesc > thead > tr > th:last-child{border-right:none;}
+.modelDesc > thead > tr > th:first-child{text-align:left;}
+.modelDesc > tbody > tr > td{padding:15px; border-right:2px solid #000000; border-bottom:2px solid #000000; font-size:20px; vertical-align:top; font-family:"latoregular",Helvetica,Arial,sans-serif;}
+.modelDesc > tbody > tr > td:last-child{border-right:none;}
+.boldWeight{font-weight:bold;}
+.caseUpper{text-transform:uppercase;}
+.thickBottomBorder{border-bottom:4px solid #000000 !important;}
+.noBottomBorder{border-bottom:none !important;}
+.modelTitleCont{position:absolute; top:10%; width:100%; z-index:10; text-align:center;}
+.modelTitleCont > h1.modelTilte1{font-family:"archiveregular", Helvetica, Arial, sans-serif; color:#141414; font-size:60px;}
+.modelTitleCont > h2.modelTilte2{font-family:"archiveregular", Helvetica, Arial, sans-serif; color:#141414; font-size:30px;}
+
+
+.model_comparision_container { padding-top:100px; }
+.modelCompare { border-collapse:collapse; border-color:#000000; width:100%; text-align:left; }
+.modelCompare > thead > tr > th{ font-family: "latoregular",Helvetica,Arial,sans-serif; width:25%; text-align:center; padding:15px; border-right:2px solid #000000; border-bottom:4px solid #000000; font-size:30px;}
+.modelCompare > thead > tr > th:last-child{ border-right:none;}
+.modelCompare > tbody > tr > td{ padding:15px; border-right:3px solid #000000; border-bottom:3px solid #000000; font-family: "latoregular",Helvetica,Arial,sans-serif; font-size:23px; vertical-align:top;}
+.modelCompare > tbody > tr > td:last-child{ border-right:none;}
+.listing_width_small { width:17% !important; margin-left:3% !important; }
+
+.header_specification { font-family:"latoregular",Helvetica,Arial,sans-serif; color: #000000; font-size: 50px; text-transform: uppercase; width: 100%; padding-bottom:30px; }
+/* Model End */
+
+/* Adventure Start */
+.adventureTitleCont{position:absolute; bottom:5%; width:100%; text-align:center; z-index:10;}
+.adventureTitleCont > h1{font-size:50px; color:#FFFFFF; text-transform:uppercase;}
+.tharCalender{width:49.9%; float:left; position:relative; border-top:3px solid #6a6a6a; background-image:url("../images/thar-adventure-calender.jpg"); background-repeat:no-repeat; background-position:center center; background-size:cover; height:100%; min-height:240px;}
+.tharCalender > img{width:100%}
+.tharApps{width:49.9%; float:right; position:relative; border-top:3px solid #6a6a6a; background-image:url("../images/thar-adventure-apps.jpg"); background-repeat:no-repeat; background-position:center center; background-size:cover; -o-background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; height:100%; min-height:240px;}
+.tharApps > img{width:100%}
+.tharCalTitle{position:absolute; z-index:10; top:20%; width:100%; text-align:center;}
+.tharCalTitle > h1 > .smallF{text-transform:uppercase; font-size:16px; display:block; color:#FFFFFF;}
+.tharCalTitle > h1 > .largeF{text-transform:uppercase; font-size:50px; display:block; color:#FFFFFF;}
+.phoneShare{color: #ffffff; left: 24%; position: absolute; text-align: left; top: 12%; z-index: 10;}
+.phoneShare > span{font-size:25px;}
+.phoneShare > span.orgTxt{font-size:40px; margin:10px 0px 0px 0px; display:block; color:#f36f21;}
+.phoneShare > span.orgTxt > strong{color:#FFFFFF; font-size:23px;}
+.appsDownload{color: #ffffff; position: absolute; right: 10%; text-align: left; top: 10%; z-index: 10;}
+.appsDownload > span{display:block;}
+
+
+/* Adventure Top 10 Road Trip section */
+
+.spotlight_adventure { position: relative; z-index: 10; }
+.top_ten_Title { color: #ffffff; font-size: 50px; text-transform: uppercase;}
+.top10TitleCont{position:absolute; bottom: 10%; width: 100%; z-index: 20; text-align:center; width:100%;}
+.top_ten_content { text-align:center; color:#000000; }
+.top_ten_content > p { font-size:24px; padding:30px 0; max-width:980px; margin:0 auto; }
+.top_ten_list { width:100%; max-width:1270px; margin:0 auto; }
+.top_ten_list > ul > li { clear:both; height:100%; height:330px; position:relative; overflow:hidden; margin-bottom:10px; }
+.top_ten_list_header { position: absolute; top:0; left:0; max-height:65px; overflow:hidden; z-index:100; }
+.top_ten_list_header .top_ten_list_number { float:left; background-color:#da7100; color:#FFFFFF; font-size:30px; padding-top:13px; min-height:52px; min-width:70px; }
+.top_ten_list_header .top_ten_list_copy { float:left; background-color:#000000; color:#FFFFFF; font-size:35px; min-height:65px; min-width:70px; padding:10px 30px 0; }
+
+.top_ten_list_overlay { display:block; position:absolute; opacity:0; transition:opacity 0.5s ease-out; top:0; padding-top:80px; height:250px; width:100%; font-size:22px; color:#FFFFFF; background:rgba(0,0,0,0.8); }
+.top_ten_list > ul > li:hover .top_ten_list_overlay { opacity:1; }
+.top_ten_list > ul > li.active .top_ten_list_overlay { opacity:1; }
+.top_list_overlay_copy { clear:both; font-family:"latoregular", Helvetica, Arial, sans-serif; }
+.top_list_overlay_copy > p { font-size:15px; color:#FFFFFF; }
+.top_list_overlay_copy > .copy { font-size:24px; color:#FFFFFF; padding-bottom:15px; }
+
+/* Adventure Top 10 Road Trip section Ends */
+
+/* Adventure Off Road section STARTs*/
+
+.off_road_title{ color: #ffffff; font-size: 50px; text-transform: uppercase;}
+.off_road_titleCont{color: #ffffff; position: absolute; bottom: 10%; width: 100%; z-index: 20;}
+.off_road_content { text-align:left; font-family:"latoregular", Helvetica, Arial, sans-serif; color:#000000; max-width:980px; margin:0 auto; }
+.off_road_content .off_road_content_head_copy { font-size:25px; padding:10px 0; font-weight:bold; }
+.off_road_content > p { font-size:20px; padding:20px 0; }
+.off_road_list { width:100%; max-width:990px; margin:0 auto; }
+.off_road_list > ul { list-style-type:disc; margin:20px 0 0 20px; display:block; }
+.off_road_list > ul > li { float:left; position:relative; margin-bottom:10px; padding-left: 10px; font-size:20px; line-height:35px; width:40%; }
+
+/* Adventure Off Road section ENDs*/
+
+/* Adventure Great Escape Start */
+.gesTitleCont{position:absolute; bottom:5%; width:100%; text-align:center; z-index:10;}
+.gesTitleCont > h1{font-size:40px; color:#FFFFFF; text-transform:uppercase;}
+.gesContainer{font-family:"latoregular", Helvetica, Arial, sans-serif;}
+.gesListTitle{font-size:25px; margin:15px 0px; font-weight:bold;}
+/* Adventure Great Escape Start */
+
+
+/* Adventure End */
+
+/* TopGear Club Start */
+
+.spotlight_top_gear { position: relative; z-index: 10; }
+.top_gear_Title { color: #ffffff; font-size: 50px; position: absolute; text-transform: uppercase; bottom: 0; width: 100%; z-index: 20;}
+.top_gear_intro { width:100%; clear:both; font-family:"latoregular", Helvetica, Arial, sans-serif; color:#505050; font-size:20px; text-align:left; padding-bottom:25px; }
+.top_gear_moments { width:100%; clear:both; }
+.top_gear_moments > ul > li { float:left; margin:0 10px 10px 0; max-width:480px; max-height:167px; text-align:center; position:relative; }
+.top_gear_moments > ul > li > .details_copy { color: #ffffff; font-size: 20px; left: 0; position: absolute; top: 85px; width: 100%; }
+.top_gear_feature_list { width:100%; clear:both; text-align:left; font-family:"latoregular", Helvetica, Arial, sans-serif; }
+.top_gear_feature_list > ul { margin:10px 0 0 25px; float:left; }
+.top_gear_feature_list > ul > li { list-style-type:disc; width:100%; clear:both; font-size:20px; line-height:48px; color:#505050; }
+
+
+/* TopGear Club Ends */
+
+
+/*---------------  News Styles Starts ------------------*/
+
+.news_spotlight_content { position: absolute; top: 70%; width: 100%; z-index: 10;}
+.news_section_header { color: #ffffff; font-size: 60px; }
+#newsList_sec { background-color: #ffffff; }
+
+/*---------------  News Styles Ends ------------------*/
+
+/* Merchandise Start */
+.merchandiseContent{text-align:left; color:#000000; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+.merchandiseContent > h2{font-size:35px; color:#242424; text-align:center;}
+.merchandiseProductCont{}
+.merchandiseProductCont > .productList{margin:0px 0px 50px 0px;}
+.merchandiseProductCont > .productList > .productImg{width:30%; float:left;}
+.merchandiseProductCont > .productList > .productDesc{width:70%; float:left;}
+.merchandiseProductCont > .productList > .productDesc > .productTitle{font-size:25px;}
+.merchandiseProductCont > .productList > .productDesc > .productInfo{}
+.borderLine{border-bottom:1px solid #b2b2b2; height:5px; font-size:5px; line-height:5px;}
+/* Merchandise End */
+
+/* SMS Light Box Start */
+.smsLightBG{height:100%; width:100%; z-index:11; background-color:rgba(0,0,0,0.5); position:fixed; display:none;}
+.smsLightBoxWrap{ z-index:12; font-family:"latoregular", Helvetica, Arial, sans-serif; display:table; width:1600px; height:100%; }
+.smsLightBoxWrap .smsDesc{font-size:20px; text-transform:none;}
+.smsLightBoxCell{display:table-cell; vertical-align:middle; }
+.smsLightBoxCont { background-color:#FFFFFF; max-width:795px; min-width:380px; margin:0 auto; padding:20px; position:relative; }
+.smsLightBoxClose{ position:absolute; top:0; right:-25px; }
+.smsLightBoxClose > a, .smsLightBoxClose > a:hover, .smsLightBoxClose > a:active, .smsLightBoxClose > a:visited{color:#FFFFFF; text-decoration:none; font-size:15px; font-weight:bold;}
+.smsLightBoxWrap input[type="text"]{font-family: "latoregular",Helvetica,Arial,sans-serif; font-size: 16px; height: 40px; max-width:240px; margin:15px 0px; padding:0 5px;}
+.smsLightBoxWrap label{margin:10px 0px 0px 0px; display:block;}
+.smsLightBoxCell > .tncCont{text-align:left;}
+/* SMS Light Box End */
+
+/* Error Page Start */
+.fullHeight{height:100%;}
+.errorPageCont{width:80%;}
+.errorPageCont{text-align:center; position:relative; top:50%; left:50%; transform:translate(-50%, -50%);}
+.errorPageCont > h1{font-size:60px; font-family: "archiveregular",Helvetica,Arial,sans-serif;}
+.errorPageCont > p{font-size:30px; font-family:"latoregular", Helvetica, Arial, sans-serif;}
+/* Error Page End */
+
+.height70per{height:70%; background-image:url("../images/thar-adventure.jpg"); background-repeat:no-repeat; background-position:center center; background-size:cover; -o-background-size:cover; -moz-background-size:cover; -ms-background-size:cover; -webkit-background-size:cover;}
+.height30per{height:30%; min-height:240px;}
+.height30per > .wrapper_full, .height30per > .tharApps{height:100%;}
+
+/* Disclaimer Page Start */
+
+.disclaimer_content { clear:both; font-family: 'latoregular'; color:#000000; width:1000px; margin:0 auto; }
+.disclaimer_content > p { font-size:20px; padding-bottom:10px; clear:both; }
+.disclaimer_content > ul { margin-left:5px; }
+.disclaimer_content > ul > li { font-size:20px; padding:30px 0 0; clear:both; }
+.disclaimer_content > ul > li > span { font-size:16px; float:left; padding-top:5px; }
+
+/* Disclaimer Page Ends */
+
+/* Sitemap Page Start */
+
+.sitemap_content { clear:both; font-family: 'latoregular'; color:#626262; }
+.sitemap_list_container { width:100%; }
+.sitemap_list_container > ul { list-style:none; width:18%; padding-right:2%; float:left; min-height:240px; }
+.sitemap_list_container > ul > li { font-size:16px; padding:0; clear:both; line-height:25px; }
+.sitemap_list_container > ul > li:first-child { font-family: "archiveregular",Helvetica,Arial,sans-serif; font-size:16px; padding-bottom:5px; }
+.sitemap_list_container > ul > li > a { color:#000000; }
+.sitemap_list_container > ul > li > a:hover { color:#f06e1d; }
+.disclaimer_content > ul > li > span { font-size:16px; float:left; padding-top:5px; }
+
+/* Sitemap Page Ends */
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+/* Adventure Start */
+.adventureTitleCont{width:100%;}
+.adventureTitleCont > img{width:50%; max-width:173px; }
+.adventureTitleCont > h1{font-size:23px;}
+.tharCalender{width:100%; float:none; border-bottom:3px solid #6a6a6a;}
+.tharApps{width:100%; float:none;}
+.phoneShare > span{font-size:12px;}
+.phoneShare > span.orgTxt{font-size:20px;}
+.phoneShare > span.orgTxt > strong{font-size:12px;}
+.ui-datepicker{top:65px !important;}
+.merchandiseContent > h2{font-size:25px;}
+.merchandiseContent p{font-size:15px;}
+.gesTitleCont > h1{font-size:15px;}
+/* Adventure End */
+.smsLightBG{top:0px;}
+.smsLightBoxWrap{width:380px;}
+.smsLightBoxCell{padding:10px;}
+.smsLightBoxWrap .smsDesc{font-size:15px;}
+.smsLightBoxCont > .tncCont{text-align:left;}
+.smsLightBoxCont > .tncCont p{font-size:12px;}
+#customizeTab > a{font-size:14px;}
+#customizeTabCont .bulletList > li{margin:0px 0px 10px 0px; font-size:14px;}
+.errorPageCont > h1{font-size:30px;}
+.errorPageCont > p{font-size:15px;}
+.fieldCont .fcol1 > input, .fieldCont .fcol2 > input, .fieldCont > .fcol > input { height: 40px; }
+.height70per{height:auto;}
+.mapContainer { float:none; width:80%; margin:0 auto; height:230px; }
+}
+@media screen and (min-width: 481px) and (max-width: 640px){
+/* Adventure Start */
+.adventureTitleCont{width:100%;}
+.adventureTitleCont > img{width:50%; max-width:173px; }
+.adventureTitleCont > h1{font-size:30px;}
+.tharCalender{width:100%; float:none; border-right:none; border-bottom:border-bottom:3px solid #6a6a6a;}
+.tharApps{width:100%; float:none; border-left:none; border-top:1px;}
+.phoneShare > span.orgTxt > strong{font-size:20px;}
+.merchandiseContent > h2{font-size:25px;}
+.merchandiseContent p{font-size:15px;}
+.gesTitleCont > h1{font-size:20px;}
+/* Adventure End */
+
+.smsLightBG{width:640px; top:0px;}
+.smsLightBoxCont{width:420px;}
+.smsLightBoxWrap{width:640px;}
+.smsLightBoxCell{padding:10px;}
+.smsLightBoxWrap .smsDesc{font-size:15px;}
+.smsLightBoxCont > .tncCont p{font-size:12px; text-align:left;}
+.mapContainer { float:none; width:80%; margin:0 auto; height:230px; }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	
+.listing_tab { width:100%; margin:0 auto; }
+.listing_width_small {margin-left: 2% !important;  width: 17.5% !important;}
+.listing_tab ul li > a { font-size: 12px; height:30px; padding:5px; }
+.model_comparision_container { padding-top:50px; }
+.modelCompare > thead > tr > th { font-size:20px; }
+.modelCompare > tbody > tr > td { font-size:15px; padding:8px; }
+.modelCompare > tbody > tr > td > img { width:40px; }
+.header_specification { font-size:25px; }
+
+.modelDesc > thead > tr > th { padding:10px; }
+
+#buyerGuide{padding-top:40px !important;}
+.twoColumns .col1{float:none; width:100%}
+.twoColumns .col2{float:none; width:100%;}
+.twoColumns .col1 .slideTitle h1{font-size:40px;}
+#priceTable .cell1, #priceTable .cell2, #priceTable .cell3{font-size:14px}
+#priceTable td{font-size:14px}
+.ebrochure{font-size:25px;}
+.downloadEbrochure > a, .downloadEbrochure > a:hover, .downloadEbrochure > a:active, .downloadEbrochure > a:visited{font-size:15px;}
+h2.h2Title{font-size:30px;}
+p.contact{font-size:12px;}
+.gitHamesha > p{font-size:12px;}
+.accordion > h3{font-size:22px; margin:0px 0px 30px 0px;}
+.accordion > .contentCont p{font-size:16px}
+.ui-datepicker{font-size:12px !important;}
+.xMartTitle{font-size:25px;}
+.formContainer > h2{font-size:30px;}
+.referTitle{font-size:25px;}
+
+/* Model Start */
+.modelDesc > thead > tr > th{font-size:18px;}
+.modelDesc > tbody > tr > td{font-size:14px; padding:10px 5px; }
+.modelTitleCont > h1.modelTilte1{font-size:30px;}
+.modelTitleCont > h2.modelTilte2{font-size:15px;}
+/* Model End */
+
+/* Top 10 Start */
+.top_ten_Title { font-size:35px; }
+.top_ten_content > p { font-size:15px; max-width:90%; }
+
+.top_ten_list { max-width:95%; }
+.top_ten_list_header { max-height:50px; }
+.top_ten_list_header .top_ten_list_number { font-size:22px; min-height:37px; min-width:50px; }
+.top_ten_list_header .top_ten_list_copy { font-size:24px; min-height:40px; }
+.top_ten_list > ul > li { height:230px; }
+.top_ten_list_overlay { height:180px; padding-top:50px; }
+.top_list_overlay_copy > .copy { font-size:20px;}
+.top_list_overlay_copy > { font-size:14px;}
+
+/* Top 10 End */
+
+/* Off Roading Starts */
+
+.off_road_content { width:94%; margin:0 auto; }
+.off_road_title { font-size:25px; width:80%; left:10%; }
+.off_road_content .off_road_content_head_copy { padding:0; font-size:20px; }
+.off_road_content > p { font-size:16px; }
+.off_road_list > ul > li { font-size:16px; line-height:25px; }
+
+
+/* Off Roading Ends */
+
+/* Top Gear Club Start */
+.top_gear_moments { width:96%; margin: 0 auto; overflow: hidden; }
+.top_gear_moments > ul > li { max-width:100%; float:none; }
+.top_gear_Title { font-size:35px; }
+/* Top Gear Club Ends */
+
+.errorPageCont > h1{font-size:40px;}
+.errorPageCont > p{font-size:20px;}
+.height70per{height:auto;}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.twoColumns .col1 .slideTitle h1{font-size:40px;}
+#priceTable .cell1, #priceTable .cell2, #priceTable .cell3{font-size:14px}
+#priceTable td{font-size:14px}
+h2.h2Title{font-size:30px;}
+.adventureTitleCont{width:100%;}
+.tharCalender{width:49.7%; float:left;}
+.tharApps{width:49.7%; float:right;}
+.phoneShare > span{font-size:18px;}
+.phoneShare > span.orgTxt{font-size:25px;}
+.phoneShare > span.orgTxt > strong{font-size:12px;}
+.smsLightBoxWrap{width:1024px;}
+.smsLightBG{top:0px;}
+.height70per{height:auto;}
+}
